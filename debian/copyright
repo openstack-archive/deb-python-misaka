@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: misaka
-Source: http://misaka.61924.nl/
+Source: git://github.com/FSX/misaka.git
 
 Files: debian/*
 Copyright: (c) 2013, Thomas Goirand <zigo@debian.org>
