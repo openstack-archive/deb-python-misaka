@@ -1,0 +1,5 @@
+python-misaka (1.0.2-1) unstable; urgency=low
+
+  * Initial release. (Closes: #721705)
+
+ -- Thomas Goirand <zigo@debian.org>  Sun, 01 Sep 2013 22:27:22 +0800

@@ -1,0 +1,24 @@
+#!/usr/bin/make -f
+
+PYTHONS:=$(shell pyversions -vr)
+PYTHON3S:=$(shell py3versions -vr)
+
+UPSTREAM_GIT = git://github.com/<please-user>/misaka.git
+include /usr/share/openstack-pkg-tools/pkgos.make
+
+%:
+	dh $@ --buildsystem=python_distutils --with python2,python3
+
+override_dh_auto_clean:
+	echo "Nothing to do"
+
+override_dh_auto_install:
+	set -e && for pyvers in $(PYTHONS); do \
+		python$$pyvers setup.py install --install-layout=deb \
+			--root $(CURDIR)/debian/python-misaka; \
+	done
+	set -e && for pyvers in $(PYTHON3S); do \
+		python$$pyvers setup.py install --install-layout=deb \
+			--root $(CURDIR)/debian/python3-misaka; \
+	done
+	rm -r $(CURDIR)/debian/python3-misaka/usr/bin
