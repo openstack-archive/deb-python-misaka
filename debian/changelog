@@ -5,6 +5,7 @@ python-misaka (1.0.2-2) unstable; urgency=medium
   * Now depends on realpath.
   * Fixed debian/copyright.
   * Manages /usr/bin/misaka using update-alternatives.
+  * Standards-Version: is now 3.9.5.
 
  -- Thomas Goirand <zigo@debian.org>  Fri, 28 Feb 2014 08:57:25 +0000
 
