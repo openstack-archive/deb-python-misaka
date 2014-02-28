@@ -22,4 +22,5 @@ override_dh_auto_install:
 			--root $(CURDIR)/debian/python3-misaka; \
 	done
 	# Handle the fact that the misaka script is on both packages
+	mv $(CURDIR)/debian/python-misaka/usr/bin/misaka $(CURDIR)/debian/python3-misaka/usr/bin/python2-misaka
 	mv $(CURDIR)/debian/python3-misaka/usr/bin/misaka $(CURDIR)/debian/python3-misaka/usr/bin/python3-misaka

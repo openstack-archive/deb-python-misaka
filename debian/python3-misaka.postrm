@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "remove" ] || [ "$1" = "disappear" ]; then
+	update-alternatives --remove misaka /usr/bin/python3-misaka
+fi
+
+#DEBHELPER#
+
+exit 0

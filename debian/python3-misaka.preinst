@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -e
+
+if [ "${1}" = "upgrade" ] ; then
+	if [ ! -h /usr/bin/misaka ] && [ -e /usr/bin/misaka ] ; then
+		rm /usr/bin/misaka
+        fi
+fi
+
+#DEBHELPER#
+
+exit 0

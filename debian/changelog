@@ -2,6 +2,9 @@ python-misaka (1.0.2-2) unstable; urgency=medium
 
   * Build-depends on python3-all-dev to avoid FTBFS with Python 3.4, thanks to
     Matthias Klose for the bug report (Closes: #736706).
+  * Now depends on realpath.
+  * Fixed debian/copyright.
+  * Manages /usr/bin/misaka using update-alternatives.
 
  -- Thomas Goirand <zigo@debian.org>  Fri, 28 Feb 2014 08:57:25 +0000
 

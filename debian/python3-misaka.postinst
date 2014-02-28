@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "configure" ] ; then
+	update-alternatives --install /usr/bin/misaka misaka /usr/bin/python3-misaka 200
+fi
+
+#DEBHELPER#
+
+exit 0
