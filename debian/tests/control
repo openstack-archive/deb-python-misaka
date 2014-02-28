@@ -1,0 +1,5 @@
+Tests: python-misaka
+Depends: python-all, python-misaka, tidy
+
+Tests: python3-misaka
+Depends: python3-all, python3-misaka, tidy

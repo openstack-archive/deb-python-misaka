@@ -21,6 +21,7 @@ Standards-Version: 3.9.5
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-misaka.git
 Vcs-Git: git://anonscm.debian.org/openstack/python-misaka.git
 Homepage: http://misaka.61924.nl/
+XS-Testsuite: autopkgtest
 
 Package: python-misaka
 Architecture: any

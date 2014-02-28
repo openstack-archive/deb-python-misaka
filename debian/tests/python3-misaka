@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e -u
+cp -r tests "$ADTTMP"
+cd "$ADTTMP/tests"
+
+for py in $(py3versions -i); do
+  echo "Testing with $py..."
+  $py -m misaka_test
+done
