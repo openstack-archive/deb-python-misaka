@@ -7,12 +7,13 @@ Uploaders: Julien Danjou <acid@debian.org>,
            Mehdi Abaakouk <sileht@sileht.net>
 Build-Depends: debhelper (>= 9),
                openstack-pkg-tools,
-               python2.7-dev | python-dev (>= 2.7.3),
-               python2.6-dev | python-dev (>= 2.7.3),
+               python-dev (>= 2.7.5-4) | python2.6-dev,
+               python-dev (>= 2.7.5-4) | python2.7-dev,
                python-all (>= 2.6.6-3~),
                python-setuptools,
                python3-all,
                python3-dev,
+               python3-all-dev,
                python3-setuptools
 Standards-Version: 3.9.4
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-misaka.git
