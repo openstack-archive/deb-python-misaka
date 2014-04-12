@@ -1,4 +1,4 @@
-python-misaka (1.0.2-3) UNRELEASED; urgency=low
+python-misaka (1.0.2-3) unstable; urgency=low
 
   * Sets python-all-dev as build-depends.
 
