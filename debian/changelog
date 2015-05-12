@@ -1,3 +1,10 @@
+python-misaka (1.0.2-4) UNRELEASED; urgency=medium
+
+  * Drops dependency to realpath, as it is now in coreutils which is marked as
+    an essential package (Closes: #780949).
+
+ -- Thomas Goirand <zigo@debian.org>  Tue, 12 May 2015 23:33:24 +0200
+
 python-misaka (1.0.2-3) unstable; urgency=low
 
   * Sets python-all-dev as build-depends.

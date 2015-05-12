@@ -25,7 +25,7 @@ XS-Testsuite: autopkgtest
 Package: python-misaka
 Architecture: any
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: realpath, ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
 Recommends: ${python:Recommends}
 Description: binding for Sundown, a markdown parsing library - python 2.x
  Misaca is A Python 2 and 3 binding for Sundown, a really fast Markdown parser
@@ -38,7 +38,7 @@ Description: binding for Sundown, a markdown parsing library - python 2.x
 Package: python3-misaka
 Architecture: any
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: realpath, ${misc:Depends}, ${python3:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${python3:Depends}, ${shlibs:Depends}
 Recommends: ${python3:Recommends}
 Description: binding for Sundown, a markdown parsing library - python 3.x
  Misaca is A Python 2 and 3 binding for Sundown, a really fast Markdown parser
