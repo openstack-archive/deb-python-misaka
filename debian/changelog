@@ -1,4 +1,4 @@
-python-misaka (1.0.2-4) UNRELEASED; urgency=medium
+python-misaka (1.0.2-4) unstable; urgency=medium
 
   * Drops dependency to realpath, as it is now in coreutils which is marked as
     an essential package (Closes: #780949).
