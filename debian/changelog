@@ -1,3 +1,9 @@
+python-misaka (1.0.2-5) unstable; urgency=medium
+
+  * override_dh_python3 to fix Py3 shebang.
+
+ -- Thomas Goirand <zigo@debian.org>  Fri, 23 Oct 2015 23:10:38 +0000
+
 python-misaka (1.0.2-4) unstable; urgency=medium
 
   * Drops dependency to realpath, as it is now in coreutils which is marked as
