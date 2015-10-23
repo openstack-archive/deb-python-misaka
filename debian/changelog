@@ -4,6 +4,7 @@ python-misaka (1.0.2-5) unstable; urgency=medium
   * python -> Python in short desc.
   * Added dh-python build-depends.
   * Remove pre-depends on dpkg.
+  * Fix watch file to use github, not broken pypi.
 
  -- Thomas Goirand <zigo@debian.org>  Fri, 23 Oct 2015 23:10:38 +0000
 
