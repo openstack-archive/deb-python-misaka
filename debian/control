@@ -8,8 +8,9 @@ Uploaders: Julien Danjou <acid@debian.org>,
 Build-Depends: cython,
                cython3,
                debhelper (>= 9),
+               dh-python,
                openstack-pkg-tools,
-               python-all (>= 2.6.6-3~),
+               python-all,
                python-all-dev,
                python-setuptools,
                python3-all,
@@ -24,10 +25,9 @@ XS-Testsuite: autopkgtest
 
 Package: python-misaka
 Architecture: any
-Pre-Depends: dpkg (>= 1.15.6~)
 Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
 Recommends: ${python:Recommends}
-Description: binding for Sundown, a markdown parsing library - python 2.x
+Description: binding for Sundown, a markdown parsing library - Python 2.x
  Misaca is A Python 2 and 3 binding for Sundown, a really fast Markdown parser
  implemented in C. Misaka is written in Cython and C. And it features a set of
  Markdown extensions and customizable renderers. Just like the Sundown binding
@@ -37,10 +37,9 @@ Description: binding for Sundown, a markdown parsing library - python 2.x
 
 Package: python3-misaka
 Architecture: any
-Pre-Depends: dpkg (>= 1.15.6~)
 Depends: ${misc:Depends}, ${python3:Depends}, ${shlibs:Depends}
 Recommends: ${python3:Recommends}
-Description: binding for Sundown, a markdown parsing library - python 3.x
+Description: binding for Sundown, a markdown parsing library - Python 3.x
  Misaca is A Python 2 and 3 binding for Sundown, a really fast Markdown parser
  implemented in C. Misaka is written in Cython and C. And it features a set of
  Markdown extensions and customizable renderers. Just like the Sundown binding

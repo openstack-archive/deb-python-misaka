@@ -1,6 +1,9 @@
 python-misaka (1.0.2-5) unstable; urgency=medium
 
   * override_dh_python3 to fix Py3 shebang.
+  * python -> Python in short desc.
+  * Added dh-python build-depends.
+  * Remove pre-depends on dpkg.
 
  -- Thomas Goirand <zigo@debian.org>  Fri, 23 Oct 2015 23:10:38 +0000
 
